@@ -1,0 +1,107 @@
+body {
+	color: #303030;
+	background-color: #fff;
+	font-family: 'Open Sans',Verdana,Tahoma,"DejaVu Sans",sans-serif;
+	margin: 0;
+	padding: 2rem;
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+#footer, #menu, .home header.header {
+	display: none;
+}
+#header a {
+	color:#303030;
+}
+#header a:hover {
+	text-decoration: none;
+}
+#header h1 {
+	margin: 0rem;
+	padding: 1rem 0 0 0;
+}
+#header img {
+	float: left; /* LTR */
+	padding: 0rem .5rem 0rem 0rem; /* LTR */
+}
+#header {
+	clear: both;
+}
+
+#wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#container {
+	margin-top: 3rem;
+}
+
+.see-footnote {
+	font-size: 80%;
+	vertical-align: super;
+}
+
+h1, h2, h3 {
+	font-family: Roboto,Verdana,Tahoma,"DejaVu Sans",sans-serif;
+}
+
+a, a:link, a:active {
+	text-decoration: none;
+	font-weight: bold;
+	/* color: hsl(354, 59%, 47%); */
+	color: hsl(200, 77%, 44%);
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	/* color: hsl(354, 59%, 37%); */
+	color: hsl(200, 73%, 40%);
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #999;
+}
+
+blockquote {
+	font-style: italic;
+}
+table {
+	margin: 0;
+	padding: .5rem;
+	border-collapse: collapse;
+}
+code, pre {
+	font-size: 1rem;
+}
+pre {
+	font-size: 0.8rem;
+	padding: 1rem;
+	background: #eee;
+}
+li {
+	padding-bottom: .3rem;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: .5rem;
+}
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1.5rem;
+}
+h3 {
+	font-size: 1.2rem;
+}
+h4, h5, h6 {
+	font-size: 1rem;
+}
+p {
+	margin: 0 0 1rem 0;
+}
+br {
+	line-height: 0.6rem;
+}
